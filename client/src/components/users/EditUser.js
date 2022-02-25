@@ -69,10 +69,10 @@ const EditUser = () => {
           </div>
           <div className="form-group">
             <input
-              type="text"
+              type="number"
               className="form-control form-control-lg"
               placeholder="Enter Your Age"
-              name="company"
+              name="age"
               value={age}
               onChange={e => onInputChange(e)}
             />

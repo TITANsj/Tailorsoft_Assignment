@@ -18,7 +18,8 @@ const profileSchema = new mongoose.Schema({
     minlength: 3,
   },
   age: {
-    type: Number
+    type: Number,
+    required: true
   },
   about: {
     type: String,
